@@ -107,7 +107,7 @@ as the second argument. Read the man pages to see what other options are
 available. 
 
 Second, note the *critical* checking of whether the **fopen()** actually
-succeeded. This is not Java where an exception will be thrown when things goes
+succeeded. This is not Java where an exception will be thrown when things go
 wrong; rather, it is C, and it is expected (in good programs, i.e., the
 only kind you'd want to write) that you always will check if the call
 succeeded. Reading the man page tells you the details of what is returned when
