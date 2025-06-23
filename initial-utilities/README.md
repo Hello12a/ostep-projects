@@ -147,7 +147,7 @@ printf("%s", buffer);
 Note that you should *not* add a newline (\\n) character to the printf(),
 because that would be changing the output of the file to have extra
 newlines. Just print the exact contents of the read-in buffer (which, of
-course, many include a newline).
+course, may include a newline).
 
 Finally, when you are done reading and printing, use **fclose()** to close the
 file (thus indicating you no longer need to read from it).
